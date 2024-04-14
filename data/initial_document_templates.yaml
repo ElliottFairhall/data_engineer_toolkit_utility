@@ -1,0 +1,111 @@
+Code Documentation:
+  Description: Documentation for code.
+  Preview: |
+      # Code Documentation
+
+      ## Description
+
+      Provide a brief description of the code or functionality being documented.
+
+      ## Usage
+
+      Include instructions on how to use the code and any important considerations.
+
+      ## Example
+
+      Provide an example usage of the code with explanation.
+
+      ## Parameters
+
+      List and describe any parameters or inputs used by the code.
+
+      ## Returns
+
+      Describe the output or return values of the code.
+
+      ## References
+
+      Include references or sources related to the code, if applicable.
+    
+Project Charter:
+  Description: Comprehensive documentation outlining the objectives, scope, stakeholders, and constraints of the project.
+  Preview: |
+    # Project Charter
+
+    ## Description
+
+    The project charter provides a comprehensive overview of the project, including its objectives, scope, stakeholders, and constraints. It serves as a guiding document throughout the project lifecycle.
+
+    ## Objectives
+
+    - Clearly define the goals and objectives of the project.
+    - Ensure alignment with the organization's strategic objectives.
+    - Provide a basis for project planning and decision-making.
+
+    ## Scope
+
+    - Define the boundaries and deliverables of the project.
+    - Identify what is included and excluded from the project scope.
+    - Set clear expectations for project outcomes.
+
+    ## Stakeholders
+
+    - Identify key stakeholders involved in the project.
+    - Define their roles, responsibilities, and level of involvement.
+    - Establish communication channels and protocols for engaging stakeholders.
+
+    ## Constraints
+
+    - Identify any limitations or constraints that may impact the project.
+    - Consider factors such as time, budget, resources, and regulatory requirements.
+    - Develop strategies for mitigating or managing constraints.
+
+    ## Assumptions
+
+    - Document any assumptions made about the project.
+    - Validate assumptions through stakeholder engagement and analysis.
+    - Update assumptions as needed throughout the project lifecycle.
+
+    ## Approval
+
+    - Obtain formal approval from project sponsors and stakeholders.
+    - Ensure consensus on project objectives, scope, and constraints.
+    - Use the project charter as a reference point for project governance and decision-making.
+
+ProjectPlan:
+  Description: Comprehensive plan outlining tasks, timelines, dependencies, and resources required for successful project completion.
+  Preview: |
+    # Project Plan
+
+    ## Introduction
+    - Provide an overview of the project plan, including its purpose and scope.
+
+    ## Objectives
+    - Define the specific objectives and goals of the project. Ensure alignment with organizational objectives and stakeholder expectations.
+
+    ## Scope
+    - Define the boundaries and deliverables of the project. Identify what is included and excluded from the project scope.
+
+    ## Timeline
+    - Create a timeline or schedule for the project, including key milestones and deadlines. Break down tasks into smaller, manageable units and allocate timeframes for each.
+
+    ## Resources
+    - Identify the resources required for the project, including personnel, equipment, and materials. Allocate resources efficiently to ensure project success.
+
+    ## Dependencies
+    - Identify any dependencies between tasks or activities. Ensure that dependencies are managed effectively to prevent delays or disruptions.
+
+    ## Risks
+    - Identify potential risks to the project and develop strategies for mitigation. Monitor risks throughout the project lifecycle and adjust plans as necessary.
+
+    ## Communication
+    - Define communication channels and protocols for project updates and status reports. Ensure regular communication with stakeholders to keep them informed of project progress.
+
+    ## Quality Assurance
+    - Define processes and procedures for ensuring the quality of project deliverables. Implement quality control measures to identify and address defects or issues.
+
+    ## Budget
+    - Define the budget for the project, including costs for resources, materials, and other expenses. Monitor expenses throughout the project lifecycle and adjust budgets as necessary.
+
+    ## Conclusion
+    - Summarize the key points of the project plan and reiterate its importance for successful project execution.

@@ -1,0 +1,147 @@
+Describe:
+  Description: Generate descriptive statistics.
+  Code: "result = df.describe()"
+
+Head:
+  Description: Return the first n rows.
+  Code: "result = df.head(n)"
+
+Tail:
+  Description: Return the last n rows.
+  Code: "result = df.tail(n)"
+
+Concat:
+  Description: Concatenate pandas objects along a particular axis with optional set logic.
+  Code: "result = pd.concat([df1, df2], axis=1)"
+  
+Describe:
+  Description: Display concise summary of a DataFrame.
+  Code: "df.info()"
+
+Head:
+  Description: Return the first n rows.
+  Code: "result = df.head(n)"
+
+Tail:
+  Description: Return the last n rows.
+  Code: "result = df.tail(n)"
+
+Concat:
+  Description: Concatenate pandas objects along a particular axis with optional set logic.
+  Code: "result = pd.concat([df1, df2], axis=1)"
+
+Shape:
+  Description: Return a tuple representing the dimensionality of the DataFrame.
+  Code: "shape_tuple = df.shape"
+
+Columns:
+  Description: Return the column labels of the DataFrame.
+  Code: "columns_list = df.columns.tolist()"
+
+Index:
+  Description: Return the index (row labels) of the DataFrame.
+  Code: "index_labels = df.index.tolist()"
+
+Dtypes:
+  Description: Return the data types of each column.
+  Code: "dtypes_dict = df.dtypes.to_dict()"
+
+Mean:
+  Description: Compute the mean of each numeric column.
+  Code: "mean_values = df.mean()"
+
+Median:
+  Description: Compute the median of each numeric column.
+  Code: "median_values = df.median()"
+
+Std:
+  Description: Compute the standard deviation of each numeric column.
+  Code: "std_deviation = df.std()"
+
+Min:
+  Description: Compute the minimum value of each numeric column.
+  Code: "min_values = df.min()"
+
+Max:
+  Description: Compute the maximum value of each numeric column.
+  Code: "max_values = df.max()"
+
+Sum:
+  Description: Compute the sum of each numeric column.
+  Code: "sum_values = df.sum()"
+
+Isnull:
+  Description: Check for missing values.
+  Code: "missing_values = df.isnull()"
+
+Fillna:
+  Description: Fill missing values with a specified value or method.
+  Code: "filled_df = df.fillna(value)"
+
+Dropna:
+  Description: Remove missing values.
+  Code: "cleaned_df = df.dropna()"
+
+Groupby:
+  Description: Group DataFrame using a mapper or by a Series of columns.
+  Code: "grouped_df = df.groupby(by)"
+
+Agg:
+  Description: Apply one or more aggregation operations to the grouped data.
+  Code: "aggregated_data = grouped_df.agg(operations)"
+
+Pivot_table:
+  Description: Create a spreadsheet-style pivot table as a DataFrame.
+  Code: "pivot_df = pd.pivot_table(df, values, index, columns, aggfunc)"
+
+Merge:
+  Description: Merge DataFrame objects by performing a database-style join operation.
+  Code: "merged_df = pd.merge(df1, df2, how, on)"
+
+Apply:
+  Description: Apply a function along an axis of the DataFrame.
+  Code: "result = df.apply(func, axis)"
+
+Map:
+  Description: Apply a function to every element in a column.
+  Code: "result = df[column].map(func)"
+
+Replace:
+  Description: Replace values in a DataFrame.
+  Code: "replaced_df = df.replace(to_replace, value)"
+
+Astype:
+  Description: Cast a pandas object to a specified dtype.
+  Code: "converted_df = df.astype(dtype)"
+
+Duplicated:
+  Description: Return boolean Series denoting duplicate rows.
+  Code: "duplicate_rows = df.duplicated()"
+
+Drop_duplicates:
+  Description: Return DataFrame with duplicate rows removed.
+  Code: "deduplicated_df = df.drop_duplicates()"
+
+Sort_values:
+  Description: Sort DataFrame by column(s).
+  Code: "sorted_df = df.sort_values(by)"
+
+Value_counts:
+  Description: Return object containing counts of unique values.
+  Code: "value_counts = df[column].value_counts()"
+
+To_csv:
+  Description: Write DataFrame to a comma-separated values (csv) file.
+  Code: "df.to_csv(filename)"
+
+To_excel:
+  Description: Write DataFrame to an Excel file.
+  Code: "df.to_excel(filename)"
+
+Sample:
+  Description: Return a random sample of items from an axis of the object.
+  Code: "sampled_data = df.sample(n)"
+
+Cumsum:
+  Description: Compute cumulative sum of a Series.
+  Code: "cumulative_sum = df[column].cumsum()"
