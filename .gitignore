@@ -5,8 +5,5 @@ __pycache__/
 venv
 
 # YAML files in development
-data/inital_confluence_templates.yaml
 data/inital_recipie_templates.yaml
-data/inital_seaborn_snippets.yaml
-data/inital_numpy_snippets.yaml
-
+data/inital_sql_snippets.yaml

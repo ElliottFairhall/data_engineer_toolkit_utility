@@ -1,0 +1,135 @@
+Scatterplot:
+  Description: Display the relationship between two numeric variables.
+  Code: "sns.scatterplot(x='x_column', y='y_column', data=df)"
+
+Lineplot:
+  Description: Display the trend of a numeric variable over time.
+  Code: "sns.lineplot(x='x_column', y='y_column', data=df)"
+
+Histogram:
+  Description: Display the distribution of a single numeric variable.
+  Code: "sns.histplot(x='x_column', data=df)"
+
+Kdeplot:
+  Description: Display the distribution of a single numeric variable using Kernel Density Estimation (KDE).
+  Code: "sns.kdeplot(x='x_column', data=df)"
+
+Boxplot:
+  Description: Display the distribution of a numeric variable across categories.
+  Code: "sns.boxplot(x='x_column', y='y_column', data=df)"
+
+Violinplot:
+  Description: Display the distribution of a numeric variable across categories with a kernel density estimation.
+  Code: "sns.violinplot(x='x_column', y='y_column', data=df)"
+
+Barplot:
+  Description: Display the relationship between a categorical variable and a numeric variable.
+  Code: "sns.barplot(x='x_column', y='y_column', data=df)"
+
+Countplot:
+  Description: Display the count of observations in each category of a categorical variable.
+  Code: "sns.countplot(x='x_column', data=df)"
+
+Pairplot:
+  Description: Display pairwise relationships in a dataset.
+  Code: "sns.pairplot(df)"
+
+Heatmap:
+  Description: Display the correlation matrix of numeric variables as a heatmap.
+  Code: "sns.heatmap(data=df.corr(), annot=True)"
+
+Jointplot:
+  Description: Display the relationship between two numeric variables including marginal distributions.
+  Code: "sns.jointplot(x='x_column', y='y_column', data=df)"
+
+Swarmplot:
+  Description: Display the distribution of a numeric variable across categories using points.
+  Code: "sns.swarmplot(x='x_column', y='y_column', data=df)"
+
+Facetgrid:
+  Description: Display multiple plots in a grid format based on one or more categorical variables.
+  Code: "g = sns.FacetGrid(df, col='column_name')"
+
+Pointplot:
+  Description: Display point estimates and confidence intervals using lines.
+  Code: "sns.pointplot(x='x_column', y='y_column', data=df)"
+
+Regressionplot:
+  Description: Display a linear regression model fit along with the scatterplot.
+  Code: "sns.regplot(x='x_column', y='y_column', data=df)"
+
+LMplot:
+  Description: Display a scatterplot with a linear regression line fit for subsets of the data.
+  Code: "sns.lmplot(x='x_column', y='y_column', hue='hue_column', data=df)"
+
+Stripplot:
+  Description: Display the distribution of a numeric variable across categories using points.
+  Code: "sns.stripplot(x='x_column', y='y_column', data=df)"
+
+Catplot:
+  Description: Display the relationship between numerical and categorical variables across different axes.
+  Code: "sns.catplot(x='x_column', y='y_column', kind='type', data=df)"
+
+Relplot:
+  Description: Display the relationship between numerical and categorical variables using different visual representations.
+  Code: "sns.relplot(x='x_column', y='y_column', hue='hue_column', col='col_column', kind='type', data=df)"
+
+Rugplot:
+  Description: Display marginal distribution of a single numeric variable with small vertical ticks.
+  Code: "sns.rugplot(x='x_column', data=df)"
+
+Clustermap:
+  Description: Display a hierarchical clustering dendrogram and a heatmap of the clustered data.
+  Code: "sns.clustermap(data=df.corr(), annot=True)"
+
+Facetgrid_map:
+  Description: Apply a plotting function to each subset of the data based on one or more categorical variables.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Pairgrid:
+  Description: Subplot grid for plotting pairwise relationships in a dataset.
+  Code: "g = sns.PairGrid(df)"
+
+Lineplot_ci:
+  Description: Display the trend of a numeric variable over time with confidence intervals.
+  Code: "sns.lineplot(x='x_column', y='y_column', ci='ci_type', data=df)"
+
+Distplot:
+  Description: Display the distribution of a single numeric variable along with its kernel density estimation.
+  Code: "sns.distplot(df['column_name'], kde=True)"
+
+Implot:
+  Description: Display the relationship between two numeric variables including marginal distributions.
+  Code: "sns.lmplot(x='x_column', y='y_column', data=df, logistic=True)"
+
+Facetgrid_point:
+  Description: Draw a scatterplot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_bar:
+  Description: Draw a bar plot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_box:
+  Description: Draw a box plot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_violin:
+  Description: Draw a violin plot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_hist:
+  Description: Draw a histogram with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_kde:
+  Description: Draw a kernel density estimate plot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_pair:
+  Description: Draw pairwise scatterplots with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"
+
+Facetgrid_reg:
+  Description: Draw a regression plot with one categorical variable in the columns and other categorical variables in the rows.
+  Code: "g = sns.FacetGrid(df, col='column_name', row='row_name')"

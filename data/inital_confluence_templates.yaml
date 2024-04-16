@@ -1,0 +1,63 @@
+RequirementsDocument:
+  Description: Document functional and non-functional requirements for the project.
+  Content: |
+    {toc}
+
+    # Requirements Document
+
+    {info:title=Introduction}
+    The requirements document serves as a foundational document for the project, outlining both functional and non-functional requirements essential for guiding the development process.
+    {info}
+
+    # Functional Requirements
+
+    {info:title=Introduction}
+    Functional requirements describe the specific behaviors or functions of the system, detailing what the system should do. Ensure that each requirement is clear, concise, and measurable.
+    {info}
+
+    ## Example:
+    {info}
+    - **Requirement ID:** FR001
+    - **Title:** User Authentication
+    - **Description:** Users must be able to create accounts, log in securely, and reset passwords if forgotten.
+    - **Acceptance Criteria:** 
+      - Users can register with a unique username and password.
+      - Users can log in securely using their credentials.
+      - Forgot password functionality allows users to reset their passwords via email.
+    {info}
+
+    # Non-functional Requirements
+
+    {info:title=Introduction}
+    Non-functional requirements specify qualities or constraints that the system must possess, such as performance, security, and scalability. These requirements often address how the system should behave rather than what it should do.
+    {info}
+
+    ## Example:
+    {info}
+    - **Requirement ID:** NFR001
+    - **Title:** Performance
+    - **Description:** The system should load each page within 2 seconds to ensure a seamless user experience.
+    - **Acceptance Criteria:** 
+      - The homepage should load within 2 seconds under normal user load conditions.
+      - Product pages should load within 3 seconds, even during peak traffic periods.
+    {info}
+
+    {info:title=Writing Clear Requirements}
+    When writing requirements, it's crucial to ensure clarity, specificity, and measurability. Here are some tips to help you create effective requirements:
+
+    1. **Be Specific:** Clearly define what the system should do or how it should behave.
+    2. **Be Measurable:** Ensure that requirements are quantifiable and can be objectively verified.
+    3. **Use Acceptance Criteria:** Include acceptance criteria to clarify when a requirement is considered fulfilled.
+    4. **Avoid Ambiguity:** Use unambiguous language to prevent misinterpretation or confusion.
+    5. **Collaborate with Stakeholders:** Involve stakeholders in the requirement gathering process to ensure alignment with user needs.
+    {info}
+
+    {info:title=Customizing the Template}
+    Feel free to customize this template to suit your project's specific requirements. You can add or remove sections as needed and adjust the formatting to match your organization's standards.
+    {info}
+
+    # Conclusion
+
+    {info}
+    The requirements document plays a crucial role in ensuring that the project meets stakeholder expectations and delivers a successful solution. By clearly documenting both functional and non-functional requirements and following best practices for requirement writing, teams can build a product that aligns with user needs while meeting quality standards and project objectives.
+    {info}

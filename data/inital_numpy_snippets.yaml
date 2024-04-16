@@ -1,0 +1,283 @@
+Arange:
+  Description: Return evenly spaced values within a given interval.
+  Code: "arr = np.arange(start, stop, step)"
+
+Linspace:
+  Description: Return evenly spaced numbers over a specified interval.
+  Code: "arr = np.linspace(start, stop, num)"
+
+Zeros:
+  Description: Return a new array of given shape and type, filled with zeros.
+  Code: "arr = np.zeros(shape, dtype)"
+
+Ones:
+  Description: Return a new array of given shape and type, filled with ones.
+  Code: "arr = np.ones(shape, dtype)"
+
+Empty:
+  Description: Return a new array of given shape and type, without initializing entries.
+  Code: "arr = np.empty(shape, dtype)"
+
+Random:
+  Description: Generate random numbers from various probability distributions.
+  Code: "arr = np.random.random(size)"
+
+Sum:
+  Description: Return the sum of array elements over a specified axis.
+  Code: "total_sum = np.sum(arr, axis)"
+
+Mean:
+  Description: Compute the arithmetic mean along the specified axis.
+  Code: "mean_value = np.mean(arr, axis)"
+
+Median:
+  Description: Compute the median along the specified axis.
+  Code: "median_value = np.median(arr, axis)"
+
+Std:
+  Description: Compute the standard deviation along the specified axis.
+  Code: "std_deviation = np.std(arr, axis)"
+
+Var:
+  Description: Compute the variance along the specified axis.
+  Code: "variance = np.var(arr, axis)"
+
+Min:
+  Description: Return the minimum value along the specified axis.
+  Code: "min_value = np.min(arr, axis)"
+
+Max:
+  Description: Return the maximum value along the specified axis.
+  Code: "max_value = np.max(arr, axis)"
+
+Argmin:
+  Description: Return the indices of the minimum values along the specified axis.
+  Code: "min_indices = np.argmin(arr, axis)"
+
+Argmax:
+  Description: Return the indices of the maximum values along the specified axis.
+  Code: "max_indices = np.argmax(arr, axis)"
+
+Dot:
+  Description: Compute the dot product of two arrays.
+  Code: "dot_product = np.dot(arr1, arr2)"
+
+Transpose:
+  Description: Permute the dimensions of an array.
+  Code: "transposed_arr = np.transpose(arr)"
+
+Reshape:
+  Description: Return a new array with the same data but different shape.
+  Code: "reshaped_arr = np.reshape(arr, new_shape)"
+
+Concatenate:
+  Description: Join arrays along an existing axis.
+  Code: "concatenated_arr = np.concatenate((arr1, arr2), axis)"
+
+Split:
+  Description: Split an array into multiple sub-arrays.
+  Code: "sub_arrays = np.split(arr, indices_or_sections, axis)"
+
+Append:
+  Description: Append values to the end of an array.
+  Code: "appended_arr = np.append(arr, values)"
+
+Insert:
+  Description: Insert values along the given axis before the given indices.
+  Code: "inserted_arr = np.insert(arr, index, values, axis)"
+
+Delete:
+  Description: Return a new array with sub-arrays along an axis deleted.
+  Code: "deleted_arr = np.delete(arr, indices, axis)"
+
+Unique:
+  Description: Find the unique elements of an array.
+  Code: "unique_elements = np.unique(arr)"
+
+Flip:
+  Description: Reverse the order of elements in an array along the given axis.
+  Code: "flipped_arr = np.flip(arr, axis)"
+
+Clip:
+  Description: Limit the values in an array to be within a specified range.
+  Code: "clipped_arr = np.clip(arr, min_value, max_value)"
+
+Where:
+  Description: Return elements chosen from x or y depending on condition.
+  Code: "result = np.where(condition, x, y)"
+
+Cumsum:
+  Description: Return the cumulative sum of the elements along a given axis.
+  Code: "cumulative_sum = np.cumsum(arr, axis)"
+
+Cumprod:
+  Description: Return the cumulative product of elements along a given axis.
+  Code: "cumulative_product = np.cumprod(arr, axis)"
+
+Diagonal:
+  Description: Return specified diagonals of an array.
+  Code: "diagonal_elements = np.diagonal(arr)"
+
+Trace:
+  Description: Return the sum along diagonals of the array.
+  Code: "trace_sum = np.trace(arr)"
+
+Identity:
+  Description: Return the identity array.
+  Code: "identity_matrix = np.identity(n)"
+
+Eye:
+  Description: Return a 2-D array with ones on the diagonal and zeros elsewhere.
+  Code: "eye_matrix = np.eye(n, m)"
+
+Meshgrid:
+  Description: Return coordinate matrices from coordinate vectors.
+  Code: "X, Y = np.meshgrid(x_values, y_values)"
+
+Stack:
+  Description: Join a sequence of arrays along a new axis.
+  Code: "stacked_arr = np.stack(arrays, axis)"
+
+Array:
+  Description: Create a NumPy array from a Python list.
+  Code: "arr = np.array([1, 2, 3, 4, 5])"
+
+Zeros:
+  Description: Create an array filled with zeros.
+  Code: "zeros_arr = np.zeros((3, 3))"
+
+Ones:
+  Description: Create an array filled with ones.
+  Code: "ones_arr = np.ones((3, 3))"
+
+Empty:
+  Description: Create an array without initializing entries.
+  Code: "empty_arr = np.empty((2, 2))"
+
+Arange:
+  Description: Return evenly spaced values within a given interval.
+  Code: "arr = np.arange(0, 10, 2)"
+
+Linspace:
+  Description: Return evenly spaced numbers over a specified interval.
+  Code: "arr = np.linspace(0, 10, 5)"
+
+Eye:
+  Description: Return a 2-D array with ones on the diagonal and zeros elsewhere.
+  Code: "eye_arr = np.eye(3)"
+
+Random:
+  Description: Generate random numbers.
+  Code: "random_arr = np.random.rand(3, 3)"
+
+Random_integers:
+  Description: Return random integers from low (inclusive) to high (exclusive).
+  Code: "random_integers = np.random.randint(1, 10, size=5)"
+
+Shape:
+  Description: Return the shape of an array.
+  Code: "shape = arr.shape"
+
+Reshape:
+  Description: Return an array with the same data but a new shape.
+  Code: "reshaped_arr = arr.reshape((2, 3))"
+
+Flatten:
+  Description: Return a copy of the array collapsed into one dimension.
+  Code: "flattened_arr = arr.flatten()"
+
+Transpose:
+  Description: Return the transpose of an array.
+  Code: "transposed_arr = arr.T"
+
+Sum:
+  Description: Return the sum of array elements.
+  Code: "total_sum = arr.sum()"
+
+Mean:
+  Description: Compute the arithmetic mean along the specified axis.
+  Code: "mean_value = arr.mean()"
+
+Median:
+  Description: Compute the median along the specified axis.
+  Code: "median_value = np.median(arr)"
+
+Std:
+  Description: Compute the standard deviation along the specified axis.
+  Code: "std_deviation = np.std(arr)"
+
+Var:
+  Description: Compute the variance along the specified axis.
+  Code: "variance = np.var(arr)"
+
+Min:
+  Description: Return the minimum along the specified axis.
+  Code: "min_value = arr.min()"
+
+Max:
+  Description: Return the maximum along the specified axis.
+  Code: "max_value = arr.max()"
+
+Argmin:
+  Description: Return the indices of the minimum values along the specified axis.
+  Code: "argmin_index = arr.argmin()"
+
+Argmax:
+  Description: Return the indices of the maximum values along the specified axis.
+  Code: "argmax_index = arr.argmax()"
+
+Dot:
+  Description: Compute the dot product of two arrays.
+  Code: "dot_product = np.dot(arr1, arr2)"
+
+Cross:
+  Description: Compute the cross product of two arrays.
+  Code: "cross_product = np.cross(arr1, arr2)"
+
+Concatenate:
+  Description: Join a sequence of arrays along an existing axis.
+  Code: "concatenated_arr = np.concatenate((arr1, arr2), axis=0)"
+
+Split:
+  Description: Split an array into multiple sub-arrays.
+  Code: "sub_arrays = np.split(arr, 3)"
+
+Stack:
+  Description: Stack arrays along a new axis.
+  Code: "stacked_arr = np.stack((arr1, arr2))"
+
+Hstack:
+  Description: Stack arrays horizontally (column-wise).
+  Code: "hstacked_arr = np.hstack((arr1, arr2))"
+
+Vstack:
+  Description: Stack arrays vertically (row-wise).
+  Code: "vstacked_arr = np.vstack((arr1, arr2))"
+
+Tile:
+  Description: Construct an array by repeating an input array.
+  Code: "tiled_arr = np.tile(arr, (2, 2))"
+
+Unique:
+  Description: Find the unique elements of an array.
+  Code: "unique_elements = np.unique(arr)"
+
+Diag:
+  Description: Extract a diagonal or construct a diagonal array.
+  Code: "diagonal = np.diag(arr)"
+
+Dot:
+  Description: Compute the dot product of two arrays.
+  Code: "dot_product = np.dot(arr1, arr2)"
+
+Sort:
+  Description: Return a sorted copy of an array.
+  Code: "sorted_arr = np.sort(arr)"
+
+Argsort:
+  Description: Return the indices that would sort an array.
+  Code: "sorted_indices = np.argsort(arr)"
+
+Clip:
+  Description: Limit the values in an array.
+  Code: "clipped_arr = np.clip(arr, a_min, a_max)"
